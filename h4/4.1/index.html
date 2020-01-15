@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Hello opdracht</title>
+</head>
+<body>
+
+<script>
+var mijnauto = {
+	merk: "Nissan",
+	type: "Skyline",
+	aantalwielen: 4,
+	kleur: "blauw",
+	snelheid: 0,
+
+	gasgeven: function() {
+		this.snelheid += 5;
+		console.log(this.snelheid);
+	},
+
+	toeteren: function() {
+		console.log("toet!");
+	}
+}
+	console.log (mijnauto.kleur);
+	mijnauto.gasgeven();
+	mijnauto.toeteren();
+
+
+</script>
+</body>
+</html>
